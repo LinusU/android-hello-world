@@ -1,0 +1,20 @@
+apply plugin: 'com.android.application'
+
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+
+buildscript {
+  repositories {
+    jcenter()
+    google()
+  }
+
+  dependencies {
+    classpath 'com.android.tools.build:gradle:3.1.0'
+    classpath 'org.jetbrains.kotlin:kotlin-gradle-plugin:1.2.50'
+  }
+}
+
+android {
+  compileSdkVersion 19
+}
